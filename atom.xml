@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaoyuwei.me/"/>
-  <updated>2016-12-12T20:19:17.617Z</updated>
+  <updated>2016-12-12T20:22:59.039Z</updated>
   <id>http://zhaoyuwei.me/</id>
   
   <author>
@@ -20,20 +20,14 @@
     <link href="http://zhaoyuwei.me/2016/12/13/introduction-161213/"/>
     <id>http://zhaoyuwei.me/2016/12/13/introduction-161213/</id>
     <published>2016-12-12T20:09:36.000Z</published>
-    <updated>2016-12-12T20:19:17.617Z</updated>
+    <updated>2016-12-12T20:22:59.039Z</updated>
     
-    <content type="html"><![CDATA[<ul>
-<li>今天杭州还是阳光明媚，明天要大风降温，天气要跳水。</li>
-<li>坚持更新博客。<br>在这安静的深夜，听段音乐，让精神游离于世界之外。<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=410629836&auto=0&height=66"></iframe>
-</li>
-</ul>
+    <content type="html"><![CDATA[<p>  今天杭州还是阳光明媚，明天要大风降温，天气要跳水。<br>  坚持更新博客。<br>  在这安静的深夜，听段音乐，让精神游离于世界之外。<br> <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=410629836&auto=0&height=66"></iframe></p>
 ]]></content>
     
     <summary type="html">
     
-      &lt;ul&gt;
-&lt;li&gt;今天杭州还是阳光明媚，明天要大风降温，天气要跳水。&lt;/li&gt;
-&lt;li&gt;坚持更新博客。&lt;br&gt;在这安静的深夜，听段音乐，让精神游离于世界之外。&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginhei
+      &lt;p&gt;  今天杭州还是阳光明媚，明天要大风降温，天气要跳水。&lt;br&gt;  坚持更新博客。&lt;br&gt;  在这安静的深夜，听段音乐，让精神游离于世界之外。&lt;br&gt; &lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginheig
     
     </summary>
     
