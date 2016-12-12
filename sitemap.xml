@@ -2,14 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yoursite.com/about/index.html</loc>
+    <loc>http://zhaoyuwei.me/tags/index.html</loc>
+    
+    <lastmod>2016-12-12T16:28:35.450Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoyuwei.me/categories/index.html</loc>
+    
+    <lastmod>2016-12-12T16:28:26.865Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://zhaoyuwei.me/about/index.html</loc>
     
     <lastmod>2016-12-12T06:54:47.846Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://yoursite.com/2016/12/11/hello-world/</loc>
+    <loc>http://zhaoyuwei.me/2016/12/11/hello-world/</loc>
     
     <lastmod>2016-12-12T06:54:23.093Z</lastmod>
     

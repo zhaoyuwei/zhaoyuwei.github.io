@@ -4,12 +4,12 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://yoursite.com/"/>
+  <link href="http://zhaoyuwei.me/"/>
   <updated>2016-12-12T06:54:23.093Z</updated>
-  <id>http://yoursite.com/</id>
+  <id>http://zhaoyuwei.me/</id>
   
   <author>
-    <name>zhao yuwei</name>
+    <name>yuwei</name>
     
   </author>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://yoursite.com/2016/12/11/hello-world/"/>
-    <id>http://yoursite.com/2016/12/11/hello-world/</id>
+    <link href="http://zhaoyuwei.me/2016/12/11/hello-world/"/>
+    <id>http://zhaoyuwei.me/2016/12/11/hello-world/</id>
     <published>2016-12-11T05:07:58.224Z</published>
     <updated>2016-12-12T06:54:23.093Z</updated>
     
