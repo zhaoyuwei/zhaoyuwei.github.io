@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaoyuwei.me/"/>
-  <updated>2016-12-12T06:54:23.093Z</updated>
+  <updated>2016-12-12T19:21:06.531Z</updated>
   <id>http://zhaoyuwei.me/</id>
   
   <author>
@@ -14,6 +14,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>�������£�������</title>
+    <link href="http://zhaoyuwei.me/2016/12/13/my-test/"/>
+    <id>http://zhaoyuwei.me/2016/12/13/my-test/</id>
+    <published>2016-12-13T07:13:48.000Z</published>
+    <updated>2016-12-12T19:21:06.531Z</updated>
+    
+    <content type="html"><![CDATA[<p>ͼƬ����1<br><img src="http://oi36uc9ko.bkt.clouddn.com/IMG_20130726_184648.jpg" alt="cmd-markdown-logo"></p>
+<p>ͼƬ����2<br><img src="http://oi36uc9ko.bkt.clouddn.com/IMG_20130726_184730.jpg" alt="cmd-markdown-logo"></p>
+]]></content>
+    
+    <summary type="html">
+    
+      ����һƪ�������£����ڲ���Hexo�����ļ�ͷ��
+    
+    </summary>
+    
+      <category term="Hexo" scheme="http://zhaoyuwei.me/categories/Hexo/"/>
+    
+    
+      <category term="Hexo" scheme="http://zhaoyuwei.me/tags/Hexo/"/>
+    
+      <category term="����" scheme="http://zhaoyuwei.me/tags/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/"/>
+    
+  </entry>
   
   <entry>
     <title>Hello World</title>
