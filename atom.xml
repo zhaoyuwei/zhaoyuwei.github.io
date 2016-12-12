@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaoyuwei.me/"/>
-  <updated>2016-12-12T19:26:52.088Z</updated>
+  <updated>2016-12-12T20:19:17.617Z</updated>
   <id>http://zhaoyuwei.me/</id>
   
   <author>
@@ -16,52 +16,24 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>测试文章，请忽略</title>
-    <link href="http://zhaoyuwei.me/2016/12/13/my-test/"/>
-    <id>http://zhaoyuwei.me/2016/12/13/my-test/</id>
-    <published>2016-12-13T07:13:48.000Z</published>
-    <updated>2016-12-12T19:26:52.088Z</updated>
+    <title>天快亮了，我的博客又上线了</title>
+    <link href="http://zhaoyuwei.me/2016/12/13/introduction-161213/"/>
+    <id>http://zhaoyuwei.me/2016/12/13/introduction-161213/</id>
+    <published>2016-12-12T20:09:36.000Z</published>
+    <updated>2016-12-12T20:19:17.617Z</updated>
     
-    <content type="html"><![CDATA[<p>图片测试1<br><img src="http://oi36uc9ko.bkt.clouddn.com/IMG_20130726_184648.jpg" alt="cmd-markdown-logo"></p>
-<p>图片测试2<br><img src="http://oi36uc9ko.bkt.clouddn.com/IMG_20130726_184730.jpg" alt="cmd-markdown-logo"></p>
+    <content type="html"><![CDATA[<ul>
+<li>今天杭州还是阳光明媚，明天要大风降温，天气要跳水。</li>
+<li>坚持更新博客。<br>在这安静的深夜，听段音乐，让精神游离于世界之外。<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=410629836&auto=0&height=66"></iframe>
+</li>
+</ul>
 ]]></content>
     
     <summary type="html">
     
-      这是一篇测试文章，用于测试Hexo文章文件头。
-    
-    </summary>
-    
-      <category term="Hexo" scheme="http://zhaoyuwei.me/categories/Hexo/"/>
-    
-    
-      <category term="Hexo" scheme="http://zhaoyuwei.me/tags/Hexo/"/>
-    
-      <category term="测试" scheme="http://zhaoyuwei.me/tags/%E6%B5%8B%E8%AF%95/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://zhaoyuwei.me/2016/12/11/hello-world/"/>
-    <id>http://zhaoyuwei.me/2016/12/11/hello-world/</id>
-    <published>2016-12-11T05:07:58.224Z</published>
-    <updated>2016-12-12T06:54:23.093Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;external&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
+      &lt;ul&gt;
+&lt;li&gt;今天杭州还是阳光明媚，明天要大风降温，天气要跳水。&lt;/li&gt;
+&lt;li&gt;坚持更新博客。&lt;br&gt;在这安静的深夜，听段音乐，让精神游离于世界之外。&lt;iframe frameborder=&quot;no&quot; border=&quot;0&quot; marginwidth=&quot;0&quot; marginhei
     
     </summary>
     
