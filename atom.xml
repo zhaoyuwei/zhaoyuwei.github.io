@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaoyuwei.me/"/>
-  <updated>2016-12-12T19:21:06.531Z</updated>
+  <updated>2016-12-12T19:26:52.088Z</updated>
   <id>http://zhaoyuwei.me/</id>
   
   <author>
@@ -16,19 +16,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>�������£�������</title>
+    <title>测试文章，请忽略</title>
     <link href="http://zhaoyuwei.me/2016/12/13/my-test/"/>
     <id>http://zhaoyuwei.me/2016/12/13/my-test/</id>
     <published>2016-12-13T07:13:48.000Z</published>
-    <updated>2016-12-12T19:21:06.531Z</updated>
+    <updated>2016-12-12T19:26:52.088Z</updated>
     
-    <content type="html"><![CDATA[<p>ͼƬ����1<br><img src="http://oi36uc9ko.bkt.clouddn.com/IMG_20130726_184648.jpg" alt="cmd-markdown-logo"></p>
-<p>ͼƬ����2<br><img src="http://oi36uc9ko.bkt.clouddn.com/IMG_20130726_184730.jpg" alt="cmd-markdown-logo"></p>
+    <content type="html"><![CDATA[<p>图片测试1<br><img src="http://oi36uc9ko.bkt.clouddn.com/IMG_20130726_184648.jpg" alt="cmd-markdown-logo"></p>
+<p>图片测试2<br><img src="http://oi36uc9ko.bkt.clouddn.com/IMG_20130726_184730.jpg" alt="cmd-markdown-logo"></p>
 ]]></content>
     
     <summary type="html">
     
-      ����һƪ�������£����ڲ���Hexo�����ļ�ͷ��
+      这是一篇测试文章，用于测试Hexo文章文件头。
     
     </summary>
     
@@ -37,7 +37,7 @@
     
       <category term="Hexo" scheme="http://zhaoyuwei.me/tags/Hexo/"/>
     
-      <category term="����" scheme="http://zhaoyuwei.me/tags/%EF%BF%BD%EF%BF%BD%EF%BF%BD%EF%BF%BD/"/>
+      <category term="测试" scheme="http://zhaoyuwei.me/tags/%E6%B5%8B%E8%AF%95/"/>
     
   </entry>
   
