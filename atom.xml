@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://zhaoyuwei.me/"/>
-  <updated>2016-12-21T07:36:11.023Z</updated>
+  <updated>2016-12-21T14:12:12.558Z</updated>
   <id>http://zhaoyuwei.me/</id>
   
   <author>
@@ -14,6 +14,41 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>树的平衡性与稳定性</title>
+    <link href="http://zhaoyuwei.me/2016/12/bree-b-l/"/>
+    <id>http://zhaoyuwei.me/2016/12/bree-b-l/</id>
+    <published>2016-12-21T13:42:20.000Z</published>
+    <updated>2016-12-21T14:12:12.558Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="什么是平衡性"><a href="#什么是平衡性" class="headerlink" title="什么是平衡性"></a>什么是平衡性</h2><p>平衡性是指一棵树的任意节点的左子树的高度和右子树的高度的差值， 差值越小，平衡性越好， 最好的情况就是相等（差值为0）。<br>平衡性的意义：最大限度的提高访问效率。</p>
+<a id="more"></a>
+<h2 id="什么是稳定性"><a href="#什么是稳定性" class="headerlink" title="什么是稳定性"></a>什么是稳定性</h2><p>稳定性是指将任意序列构造成一棵树的过程中， 新插入的节点不会对已经插入的节点的值造成改变。<br>用一个例子说明：<br>将1,2,3,4,5,6,7,8,9 构造成一棵二叉查找树的过程中，为了维持左子树和右子树的高度保持基本一致， 需要每插入一个节点，就要调整父节点以及其他节点的值，那么这样的数据构造成数的过程中， 数据是不稳定的。调整的方式有专业的术语， 叫左旋转，右旋转。<br>试想一下，如果插入数据的量级越大（比如数据库的数据和索引）， 需要移动的数据量也会越大，插入效率会很低。</p>
+<blockquote>
+<p>稳定性和平衡性是一对天敌， 最好的办法是两者兼顾，达到基本平衡和基本稳定。</p>
+</blockquote>
+<h2 id="平衡二叉树"><a href="#平衡二叉树" class="headerlink" title="平衡二叉树"></a>平衡二叉树</h2><p>平衡二叉树的目的是为了追求极度平衡， 从而牺牲树的稳定性。插入一个节点数值的过程中，甚至会影响到根节点。所以，稳定性很差。这种数据结构目前使用的已经很少。</p>
+<p>##红黑树<br>红黑树是平衡二叉树的一个子集， 也就是每次插入一个节点数据的时候， 为了达到树的平衡， 会在一定范围内做数据的调整，只会影响其父节点以及兄弟节点的数据，从而既实现树基本平衡，又可以保证树的基本稳定，目前红黑树的应用场景比较多，java中的TreeMap底层便是通过红黑树实现的。</p>
+<p>要想理解红黑树， 最好先理解什么是2-3树，因为红黑树是通过2-3树变相的实现的。 如果单靠概念是比较难理解的。</p>
+<h2 id="2-3树"><a href="#2-3树" class="headerlink" title="2-3树"></a>2-3树</h2><p>任意一个节点可以最多有两个子节点， 那么叫做二叉树； 任意一个节点可以有0个节点、1个节点、2个节点、3个节点，那么可以叫做2-3树。</p>
+<p>如果一个节点有两个子节点， 那么父节点的值只有一个， 也就是  left &lt; parent &lt;= right； 如果一个节点有三个节点， 那么父节点的值有三个, 也就是 left &lt; parent1 &lt;= middle &lt; parent2 &lt;= right;</p>
+<p>网上有一篇比较好的博文：<br><a href="http://www.cnblogs.com/yangecnu/p/Introduce-2-3-Search-Tree.html" target="_blank" rel="external">2-3树的构造与分裂</a></p>
+<p>通过这篇博文，可以理解2-3树以及红黑树。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;什么是平衡性&quot;&gt;&lt;a href=&quot;#什么是平衡性&quot; class=&quot;headerlink&quot; title=&quot;什么是平衡性&quot;&gt;&lt;/a&gt;什么是平衡性&lt;/h2&gt;&lt;p&gt;平衡性是指一棵树的任意节点的左子树的高度和右子树的高度的差值， 差值越小，平衡性越好， 最好的情况就是相等（差值为0）。&lt;br&gt;平衡性的意义：最大限度的提高访问效率。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="数据结构" scheme="http://zhaoyuwei.me/categories/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/"/>
+    
+    
+      <category term="二叉树" scheme="http://zhaoyuwei.me/tags/%E4%BA%8C%E5%8F%89%E6%A0%91/"/>
+    
+  </entry>
   
   <entry>
     <title>二叉查找树</title>

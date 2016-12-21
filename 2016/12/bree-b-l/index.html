@@ -42,7 +42,7 @@
 <link href="/css/main.css?v=5.1.0" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="树," />
+  <meta name="keywords" content="二叉树," />
 
 
 
@@ -60,23 +60,16 @@
 
 
 
-<meta name="description" content="二叉查找树，又叫二叉搜索树、搜索二叉树。
-如果在某个数组中查找某个值，比较快的方式是二分查找，但是二分查找的前提是数组有序。如果是一个无序的数组，可以构造成一棵二叉查找树， 二叉查找树是一种增删查相对均衡的数据结构。">
+<meta name="description" content="什么是平衡性平衡性是指一棵树的任意节点的左子树的高度和右子树的高度的差值， 差值越小，平衡性越好， 最好的情况就是相等（差值为0）。平衡性的意义：最大限度的提高访问效率。">
 <meta property="og:type" content="article">
-<meta property="og:title" content="二叉查找树">
-<meta property="og:url" content="http://zhaoyuwei.me/2016/12/btree/index.html">
+<meta property="og:title" content="树的平衡性与稳定性">
+<meta property="og:url" content="http://zhaoyuwei.me/2016/12/bree-b-l/index.html">
 <meta property="og:site_name" content="赵玉伟的博客">
-<meta property="og:description" content="二叉查找树，又叫二叉搜索树、搜索二叉树。
-如果在某个数组中查找某个值，比较快的方式是二分查找，但是二分查找的前提是数组有序。如果是一个无序的数组，可以构造成一棵二叉查找树， 二叉查找树是一种增删查相对均衡的数据结构。">
-<meta property="og:image" content="http://oi36uc9ko.bkt.clouddn.com/btree.png">
-<meta property="og:image" content="http://oi36uc9ko.bkt.clouddn.com/btree2.png">
-<meta property="og:image" content="http://oi36uc9ko.bkt.clouddn.com/btree3.png">
-<meta property="og:updated_time" content="2016-12-21T07:36:11.023Z">
+<meta property="og:description" content="什么是平衡性平衡性是指一棵树的任意节点的左子树的高度和右子树的高度的差值， 差值越小，平衡性越好， 最好的情况就是相等（差值为0）。平衡性的意义：最大限度的提高访问效率。">
+<meta property="og:updated_time" content="2016-12-21T14:12:12.558Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="二叉查找树">
-<meta name="twitter:description" content="二叉查找树，又叫二叉搜索树、搜索二叉树。
-如果在某个数组中查找某个值，比较快的方式是二分查找，但是二分查找的前提是数组有序。如果是一个无序的数组，可以构造成一棵二叉查找树， 二叉查找树是一种增删查相对均衡的数据结构。">
-<meta name="twitter:image" content="http://oi36uc9ko.bkt.clouddn.com/btree.png">
+<meta name="twitter:title" content="树的平衡性与稳定性">
+<meta name="twitter:description" content="什么是平衡性平衡性是指一棵树的任意节点的左子树的高度和右子树的高度的差值， 差值越小，平衡性越好， 最好的情况就是相等（差值为0）。平衡性的意义：最大限度的提高访问效率。">
 
 
 
@@ -104,13 +97,13 @@
 
 
 
-  <link rel="canonical" href="http://zhaoyuwei.me/2016/12/btree/"/>
+  <link rel="canonical" href="http://zhaoyuwei.me/2016/12/bree-b-l/"/>
 
 
 
 
 
-  <title> 二叉查找树 | 赵玉伟的博客 </title>
+  <title> 树的平衡性与稳定性 | 赵玉伟的博客 </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -241,7 +234,7 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-  <link itemprop="mainEntityOfPage" href="http://zhaoyuwei.me/2016/12/btree/">
+  <link itemprop="mainEntityOfPage" href="http://zhaoyuwei.me/2016/12/bree-b-l/">
 
   <span style="display:none" itemprop="author" itemscope itemtype="http://schema.org/Person">
     <meta itemprop="name" content="yuwei">
@@ -265,7 +258,7 @@
             
             
               
-                二叉查找树
+                树的平衡性与稳定性
               
             
           </h1>
@@ -278,7 +271,7 @@
                 <i class="fa fa-calendar-o"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-21T15:03:21+08:00">
+              <time title="Post created" itemprop="dateCreated datePublished" datetime="2016-12-21T21:42:20+08:00">
                 2016-12-21
               </time>
             
@@ -332,17 +325,19 @@
       
 
       
-        <p>二叉查找树，又叫二叉搜索树、搜索二叉树。</p>
-<p>如果在某个数组中查找某个值，比较快的方式是二分查找，但是二分查找的前提是数组有序。如果是一个无序的数组，可以构造成一棵二叉查找树， 二叉查找树是一种增删查相对均衡的数据结构。</p>
+        <h2 id="什么是平衡性"><a href="#什么是平衡性" class="headerlink" title="什么是平衡性"></a>什么是平衡性</h2><p>平衡性是指一棵树的任意节点的左子树的高度和右子树的高度的差值， 差值越小，平衡性越好， 最好的情况就是相等（差值为0）。<br>平衡性的意义：最大限度的提高访问效率。</p>
 <a id="more"></a>
-<h2 id="二叉查找树满足什么特性？"><a href="#二叉查找树满足什么特性？" class="headerlink" title="二叉查找树满足什么特性？"></a>二叉查找树满足什么特性？</h2><blockquote>
-<ul>
-<li>每个节点最多有2个子节点；</li>
-<li>父节点的左子节点 &lt; 父节点， 父节点的右子节点 &gt;= 父节点。</li>
-</ul>
+<h2 id="什么是稳定性"><a href="#什么是稳定性" class="headerlink" title="什么是稳定性"></a>什么是稳定性</h2><p>稳定性是指将任意序列构造成一棵树的过程中， 新插入的节点不会对已经插入的节点的值造成改变。<br>用一个例子说明：<br>将1,2,3,4,5,6,7,8,9 构造成一棵二叉查找树的过程中，为了维持左子树和右子树的高度保持基本一致， 需要每插入一个节点，就要调整父节点以及其他节点的值，那么这样的数据构造成数的过程中， 数据是不稳定的。调整的方式有专业的术语， 叫左旋转，右旋转。<br>试想一下，如果插入数据的量级越大（比如数据库的数据和索引）， 需要移动的数据量也会越大，插入效率会很低。</p>
+<blockquote>
+<p>稳定性和平衡性是一对天敌， 最好的办法是两者兼顾，达到基本平衡和基本稳定。</p>
 </blockquote>
-<h3 id="序列：A-1-2-3-4-5-6-7-8-9-B-9-8-7-6-5-4-3-2-1-构造成二叉查找树如下："><a href="#序列：A-1-2-3-4-5-6-7-8-9-B-9-8-7-6-5-4-3-2-1-构造成二叉查找树如下：" class="headerlink" title="序列：A: 1,2,3,4,5,6,7,8,9;     B: 9,8,7,6,5,4,3,2,1 构造成二叉查找树如下："></a>序列：A: 1,2,3,4,5,6,7,8,9;     B: 9,8,7,6,5,4,3,2,1 构造成二叉查找树如下：</h3><p><div style="float:left"><img src="http://oi36uc9ko.bkt.clouddn.com/btree.png" alt=""></div><img src="http://oi36uc9ko.bkt.clouddn.com/btree2.png" alt=""><br>以上两种结构，虽然是二叉查找树， 但是由于数组已经有序，所以其实已经退化成链表。</p>
-<h3 id="序列：6-5-8-3-4-9-7-2-1-构造成二叉查找树如下："><a href="#序列：6-5-8-3-4-9-7-2-1-构造成二叉查找树如下：" class="headerlink" title="序列：6,5,8,3,4,9,7,2,1, 构造成二叉查找树如下："></a>序列：6,5,8,3,4,9,7,2,1, 构造成二叉查找树如下：</h3><p><img src="http://oi36uc9ko.bkt.clouddn.com/btree3.png" alt=""></p>
+<h2 id="平衡二叉树"><a href="#平衡二叉树" class="headerlink" title="平衡二叉树"></a>平衡二叉树</h2><p>平衡二叉树的目的是为了追求极度平衡， 从而牺牲树的稳定性。插入一个节点数值的过程中，甚至会影响到根节点。所以，稳定性很差。这种数据结构目前使用的已经很少。</p>
+<p>##红黑树<br>红黑树是平衡二叉树的一个子集， 也就是每次插入一个节点数据的时候， 为了达到树的平衡， 会在一定范围内做数据的调整，只会影响其父节点以及兄弟节点的数据，从而既实现树基本平衡，又可以保证树的基本稳定，目前红黑树的应用场景比较多，java中的TreeMap底层便是通过红黑树实现的。</p>
+<p>要想理解红黑树， 最好先理解什么是2-3树，因为红黑树是通过2-3树变相的实现的。 如果单靠概念是比较难理解的。</p>
+<h2 id="2-3树"><a href="#2-3树" class="headerlink" title="2-3树"></a>2-3树</h2><p>任意一个节点可以最多有两个子节点， 那么叫做二叉树； 任意一个节点可以有0个节点、1个节点、2个节点、3个节点，那么可以叫做2-3树。</p>
+<p>如果一个节点有两个子节点， 那么父节点的值只有一个， 也就是  left &lt; parent &lt;= right； 如果一个节点有三个节点， 那么父节点的值有三个, 也就是 left &lt; parent1 &lt;= middle &lt; parent2 &lt;= right;</p>
+<p>网上有一篇比较好的博文：<br><a href="http://www.cnblogs.com/yangecnu/p/Introduce-2-3-Search-Tree.html" target="_blank" rel="external">2-3树的构造与分裂</a></p>
+<p>通过这篇博文，可以理解2-3树以及红黑树。</p>
 
       
     </div>
@@ -366,7 +361,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/树/" rel="tag"># 树</a>
+            <a href="/tags/二叉树/" rel="tag"># 二叉树</a>
           
         </div>
       
@@ -375,8 +370,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2016/12/year-summary/" rel="next" title="2016，bye">
-                <i class="fa fa-chevron-left"></i> 2016，bye
+              <a href="/2016/12/btree/" rel="next" title="二叉查找树">
+                <i class="fa fa-chevron-left"></i> 二叉查找树
               </a>
             
           </div>
@@ -384,10 +379,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2016/12/bree-b-l/" rel="prev" title="树的平衡性与稳定性">
-                树的平衡性与稳定性 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -532,7 +523,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#二叉查找树满足什么特性？"><span class="nav-number">1.</span> <span class="nav-text">二叉查找树满足什么特性？</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#序列：A-1-2-3-4-5-6-7-8-9-B-9-8-7-6-5-4-3-2-1-构造成二叉查找树如下："><span class="nav-number">1.1.</span> <span class="nav-text">序列：A: 1,2,3,4,5,6,7,8,9;     B: 9,8,7,6,5,4,3,2,1 构造成二叉查找树如下：</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#序列：6-5-8-3-4-9-7-2-1-构造成二叉查找树如下："><span class="nav-number">1.2.</span> <span class="nav-text">序列：6,5,8,3,4,9,7,2,1, 构造成二叉查找树如下：</span></a></li></ol></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是平衡性"><span class="nav-number">1.</span> <span class="nav-text">什么是平衡性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#什么是稳定性"><span class="nav-number">2.</span> <span class="nav-text">什么是稳定性</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#平衡二叉树"><span class="nav-number">3.</span> <span class="nav-text">平衡二叉树</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-3树"><span class="nav-number">4.</span> <span class="nav-text">2-3树</span></a></li></ol></div>
             
 
           </div>
